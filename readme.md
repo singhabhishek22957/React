@@ -52,3 +52,11 @@ React
  -> no SEO , browser render of JS , no routing 
  framework 
  ->next Js , Gatsby , Remix 
+
+
+ 1. Virtual DOM
+
+ link: https://github.com/acdlite/react-fiber-architecture
+
+ 2. Tailwind CSS and Props 
+ 

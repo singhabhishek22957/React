@@ -1,44 +1,33 @@
 import { useState } from 'react'
+import TailwindCSS from './tailwindCSS'
+import Hooks from './components/Hooks.jsx'
+import Card from './components/Card'
+import CounterHiddenFe from './components/CounterHiddenFe.jsx'
+import ColorChanger from './components/ColorChanger.jsx'
 
 function App() {
-  let [counter, setCounter] = useState(15)
-  // let counter = 5;
 
-  const addValue=()=>{
-    
-    if(counter>=20){
-      alert("Counter can't store negative value ")
-    }else{
-      counter++
-    }
-    console.log(counter);
-    
-    return setCounter(counter);
+  // let myObject = {
+  //   username:"Hitesh",
+  //   age:21
+  // }
 
-  }
-  const removeValue=()=>{
-    
-    if(counter<=0){
-      alert("Counter can't store negative value ")
-    }else{
-      counter--
-    }
-    console.log(counter);
-    
-    return setCounter(counter);
-  }
 
   return (
     <>
-      <h1>Chai aur React </h1>
-      <h3>Counter Value: {counter}</h3>
-      <button onClick={addValue} >Add Value{counter}</button>
-      <br/>
-      <button onClick={removeValue} >Remove Value {counter}</button>
-      <footer>
-        footer: {counter}
-      </footer>
+      {/* <TailwindCSS/>
+      <Hooks/> */}
+      {/* <Card  image='https://www.shutterstock.com/shutterstock/photos/2491116325/display_1500/stock-photo-portrait-of-little-boy-studying-in-classroom-at-school-young-happy-caucasian-boy-doing-his-2491116325.jpg' />
+      <Card/>
+
+      <CounterHiddenFe/> */}
+
+
+      <ColorChanger/>
+      
     </>
+
+    
   )
   
 }
