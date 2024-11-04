@@ -66,7 +66,7 @@ function App() {
               <input
                 type="range"
                 value={length}
-                min={8}
+                min={6}
                 max={100}
                 className=" cursor-pointer "
                 onChange={(e) => {
